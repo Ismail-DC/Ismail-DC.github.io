@@ -1,0 +1,125 @@
+<!--
+Name: Ismail Kapadia
+File: index.html
+Date: 07 June 2024
+HTML code for Mozilla Splash Page
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mozilla</title>
+    <style>
+        /* CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffd700; /* Golden yellow background */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff5722; /* Deep orange header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative; /* Enable positioning */
+        }
+        header img {
+            position: absolute; /* Position the logo */
+            top: 10px; /* Adjust top position */
+            right: 10px; /* Adjust right position */
+            width: 50px; /* Set width */
+            height: auto; /* Maintain aspect ratio */
+        }
+        article {
+            background-color: #ffffff; /* White article background */
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+        .further-info {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .further-info a {
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            display: block;
+            background-color: #ff4081; /* Pinkish background */
+            padding: 10px;
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+        .further-info a:hover {
+            background-color: #f50057; /* Darker pink on hover */
+        }
+        .further-info img {
+            margin-bottom: 10px;
+            width: 100%;
+            height: auto;
+        }
+        .red-panda {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .red-panda img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mozilla</h1>
+        <p>Rocking the free web</p>
+        <img src="firefox_logo-only_RGB_120px.png" alt="Firefox Logo"> <!-- Firefox logo -->
+    </header>
+
+    <article>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allowfullscreen></iframe>
+        <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+    </article>
+
+    <div class="further-info">
+        <a href="#" style="background-color: #2196f3;"> <!-- Blue background -->
+            <img src="firefox_logo-only_RGB_400px.png" alt="Firefox Logo"
+                 srcset="firefox_logo-only_RGB_120px.png 120w, firefox_logo-only_RGB_400px.png 400w"
+                 sizes="(max-width: 500px) 120px, 400px">
+            <p>Firefox Browser</p>
+        </a>
+        <a href="#" style="background-color: #ff9800;"> <!-- Orange background -->
+            <img src="firefox-addons_400px.jpg" alt="Firefox Add-ons"
+                 srcset="firefox-addons_120px.jpg 120w, firefox-addons_400px.jpg 400w"
+                 sizes="(max-width: 500px) 120px, 400px">
+            <p>Firefox Add-ons</p>
+        </a>
+        <a href="#" style="background-color: #4caf50;"> <!-- Green background -->
+            <img src="mozilla-dinosaur-head_400px.png" alt="Mozilla Dinosaur"
+                 srcset="mozilla-dinosaur-head_120px.png 120w, mozilla-dinosaur-head_400px.png 400w"
+                 sizes="(max-width: 500px) 120px, 400px">
+            <p>Mozilla Dinosaur</p>
+        </a>
+        <a href="#" style="background-color: #9c27b0;"> <!-- Purple background -->
+            <img src="mdn.400px.png" alt="MDN Web Docs"
+                 srcset="mdn.120px.png 120w, mdn.400px.png 400w"
+                 sizes="(max-width: 500px) 120px, 400px">
+            <p>MDN Web Docs</p>
+        </a>
+    </div>
+
+    <div class="red-panda">
+        <img src="red-panda_1200px.jpg" alt="Red Panda" width="1200" height="675">
+        <p>Red panda picture by Mathias Appel.</p>
+    </div>
+
+</body>
+</html>
